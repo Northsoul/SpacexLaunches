@@ -1,0 +1,7 @@
+<resources>
+    <!--Title-->
+    <string name="app_name">SpaceXLaunches</string>
+
+    <!--Splash Screen-->
+    <string name="splash_title">SpaceX Launches</string>
+</resources>
