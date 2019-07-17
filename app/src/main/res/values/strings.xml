@@ -4,4 +4,19 @@
 
     <!--Splash Screen-->
     <string name="splash_title">SpaceX Launches</string>
+
+    <!--Navigation Drawer Animation-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--Drawer Header-->
+    <string name="spacex_launches">SpaceX Launches</string>
+    <string name="email">nelsonfcgoncalves@gmail.com</string>
+
+    <!--Drawer Menu-->
+    <string name="rocket1">Rocket1</string>
+    <string name="rocket2">Rocket2</string>
+    <string name="rocket3">Rocket3</string>
+    <string name="rocket4">Rocket4</string>
+    <string name="rocket5">Rocket5</string>
 </resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!-- This checkable behaviour makes sure that we can only select one menu item from the items in this group-->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/ic_rocket1"
+            android:title="@string/rocket1" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_rocket2"
+            android:title="@string/rocket2" />
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_rocket3"
+            android:title="@string/rocket3" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_rocket4"
+            android:title="@string/rocket4" />
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/ic_rocket5"
+            android:title="@string/rocket5" />
+    </group>
+</menu>
