@@ -4,14 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="176dp"
     android:background="@color/colorAccent"
-    android:gravity="bottom"
-    android:padding="16dp"
+    android:gravity="start"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@mipmap/ic_launcher_round"/>
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/header_earth"
+        android:scaleType="fitXY"/>
 
     <TextView
         android:layout_width="wrap_content"

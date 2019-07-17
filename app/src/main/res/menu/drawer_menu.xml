@@ -6,24 +6,31 @@
     <!-- This checkable behaviour makes sure that we can only select one menu item from the items in this group-->
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_message"
-            android:icon="@drawable/ic_rocket1"
+            android:id="@+id/nav_rocket1"
             android:title="@string/rocket1" />
         <item
-            android:id="@+id/nav_profile"
-            android:icon="@drawable/ic_rocket2"
+            android:id="@+id/nav_rocket2"
             android:title="@string/rocket2" />
         <item
-            android:id="@+id/nav_chat"
-            android:icon="@drawable/ic_rocket3"
+            android:id="@+id/nav_rocket3"
             android:title="@string/rocket3" />
         <item
-            android:id="@+id/nav_share"
-            android:icon="@drawable/ic_rocket4"
+            android:id="@+id/nav_rocket4"
             android:title="@string/rocket4" />
         <item
-            android:id="@+id/nav_send"
-            android:icon="@drawable/ic_rocket5"
+            android:id="@+id/nav_rocket5"
             android:title="@string/rocket5" />
+        <item
+            android:id="@+id/nav_rocket6"
+            android:title="@string/rocket6" />
+        <item
+            android:id="@+id/nav_rocket7"
+            android:title="@string/rocket7" />
+        <item
+            android:id="@+id/nav_rocket8"
+            android:title="@string/rocket8" />
+        <item
+            android:id="@+id/nav_rocket9"
+            android:title="@string/rocket9" />
     </group>
 </menu>
