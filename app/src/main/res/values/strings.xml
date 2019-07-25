@@ -4,4 +4,8 @@
 
     <!--Splash Screen-->
     <string name="splash_title">SpaceX Launches</string>
+    <string name="down_fragment">Down fragment</string>
+    <string name="left_fragment">Left fragment</string>
+    <string name="right_fragment">Right fragment</string>
+    <string name="up_fragment">Up fragment</string>
 </resources>
