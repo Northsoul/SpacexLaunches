@@ -9,7 +9,7 @@
     <android.support.v7.widget.AppCompatAutoCompleteTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/left_fragment"
+        android:text="@string/upcoming_fragment"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

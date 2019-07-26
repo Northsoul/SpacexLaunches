@@ -6,6 +6,7 @@ import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
+import com.example.spacexlaunches.NavigationFragment.*;
 import com.microsoft.appcenter.AppCenter;
 import com.microsoft.appcenter.analytics.Analytics;
 import com.microsoft.appcenter.crashes.Crashes;
@@ -24,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         bottomNav.setOnNavigationItemSelectedListener(navListener);
 
         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                new UpFragment()).commit();
+                new HomeFragment()).commit();
     }
     //react to click on bottom navigation buttons
     private BottomNavigationView.OnNavigationItemSelectedListener navListener =
@@ -34,17 +35,20 @@ public class MainActivity extends AppCompatActivity {
                     Fragment selectedFragment = null;
 
                     switch (item.getItemId()){
-                        case R.id.nav_up:
-                            selectedFragment = new UpFragment();
+                        case R.id.nav_home:
+                            selectedFragment = new HomeFragment();
                             break;
-                        case R.id.nav_down:
-                            selectedFragment = new DownFragment();
+                        case R.id.nav_vehicles:
+                            selectedFragment = new VehiclesFragment();
                             break;
-                        case R.id.nav_left:
-                            selectedFragment = new LeftFragment();
+                        case R.id.nav_upcoming:
+                            selectedFragment = new UpcomingFragment();
                             break;
-                        case R.id.nav_right:
-                            selectedFragment = new RightFragment();
+                        case R.id.nav_latest:
+                            selectedFragment = new LatestFragment();
+                            break;
+                        case R.id.nav_company:
+                            selectedFragment = new CompanyFragment();
                             break;
                     }
 
