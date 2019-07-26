@@ -4,8 +4,19 @@
 
     <!--Splash Screen-->
     <string name="splash_title">SpaceX Launches</string>
-    <string name="down_fragment">Down fragment</string>
-    <string name="left_fragment">Left fragment</string>
-    <string name="right_fragment">Right fragment</string>
-    <string name="up_fragment">Up fragment</string>
+
+
+    <!-- Navigation bar fragments -->
+    <string name="vehicles_fragment">Vehicles</string>
+    <string name="upcoming_fragment">Upcoming</string>
+    <string name="latest_fragment">Latest</string>
+    <string name="home_fragment">Home</string>
+    <string name="company_fragment">Company</string>
+
+    <!-- Icon names -->
+    <string name="home_icon">Home</string>
+    <string name="vehicles_icon">Vehicles</string>
+    <string name="upcoming_icon">Upcoming</string>
+    <string name="latest_icon">Latest</string>
+    <string name="company_icon">Company</string>
 </resources>
