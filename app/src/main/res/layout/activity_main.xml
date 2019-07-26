@@ -33,8 +33,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         app:menu="@menu/bottom_navigation"
-        android:background="@color/cardview_dark_background"
-        app:itemIconTint="@color/cardview_light_background"/>
+        android:background="@color/dark_gray"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"/>
 
 
 </android.support.design.circularreveal.CircularRevealRelativeLayout>
