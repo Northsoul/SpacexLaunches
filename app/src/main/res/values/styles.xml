@@ -3,7 +3,7 @@
     <!-- Application General Theme -->
     <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
         <item name="android:textColorPrimary">@color/white</item>
-        <item name="colorPrimaryDark">@color/dim_gray</item>
+        <item name="colorPrimaryDark">@color/dark_gray</item>
         <item name="android:navigationBarColor">@color/dark_gray</item>
     </style>
 
