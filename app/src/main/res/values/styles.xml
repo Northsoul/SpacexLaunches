@@ -1,11 +1,10 @@
 <resources>
 
     <!-- Application General Theme -->
-    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="android:statusBarColor">@color/transparent</item>
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
         <item name="android:textColorPrimary">@color/white</item>
-        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorPrimaryDark">@color/dim_gray</item>
+        <item name="android:navigationBarColor">@color/dark_gray</item>
     </style>
 
     <!-- Splash Activity Theme -->
@@ -14,6 +13,7 @@
         <item name="android:windowBackground">@drawable/splash_background</item>
     </style>
 
+    <!-- Navigation bar theme -->
     <style name="NavTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
         <item name="android:textColorPrimary">@color/white</item>
     </style>
