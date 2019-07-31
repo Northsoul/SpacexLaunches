@@ -22,7 +22,6 @@
             app:contentScrim="@color/dark_gray"
             app:expandedTitleMarginStart="48dp"
             app:expandedTitleMarginEnd="64dp"
-            android:background="@drawable/img_sample"
             app:title="Vehicles">
 
             <android.support.v7.widget.Toolbar
@@ -31,6 +30,14 @@
                 android:layout_height="?attr/actionBarSize"
                 app:layout_collapseMode="pin"
                 app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/img_sample"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
         </android.support.design.widget.CollapsingToolbarLayout>
 
     </android.support.design.widget.AppBarLayout>
