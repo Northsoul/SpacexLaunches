@@ -8,14 +8,14 @@
 
     <!-- Layout of the app bar -->
     <android.support.design.widget.AppBarLayout
-        android:id="@+id/appbar"
+        android:id="@+id/appbarvehicles"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         >
 
         <!-- Collapsing part of app bar -->
         <android.support.design.widget.CollapsingToolbarLayout
-            android:id="@+id/coltoolbarhome"
+            android:id="@+id/coltoolbarvehicles"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:layout_scrollFlags="exitUntilCollapsed|scroll"
@@ -26,7 +26,7 @@
             app:title="Vehicles">
 
             <android.support.v7.widget.Toolbar
-                android:id="@+id/toolbaridhome"
+                android:id="@+id/toolbaridvehicles"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 app:layout_collapseMode="pin"
